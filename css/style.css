@@ -207,6 +207,7 @@ a:hover{
     margin-top: -6rem;
     position: relative;
     z-index: 3;
+  
    
    
        
@@ -252,6 +253,7 @@ a:hover{
 i{
     padding: 2rem;
 }
+
 
 .break{
     display: block;
@@ -514,14 +516,16 @@ footer{
 
 
     
-} 
+}
+
+
 
 /*-----Normal size Viewport-----*/
 @media(min-width:769px) and (max-width:1024px){
     .mainbar{
         padding: 0;
         display: flex;
-        padding: 0.7em 5em;
+        padding: 0.7em 6em;
         /* text-align: center; */
         position: sticky;
         top: 0;
@@ -537,13 +541,17 @@ footer{
 
    
     .navbar ul {
-        padding-top: 1em;
-        padding-right: 2.3em;
+        padding-top: 0.5em;
+        padding-right: 2.5em;
     }
 
 
     .mainsection{
         margin: 2em 0 15em 0;
+    }
+
+    .sub-section{
+        padding-left: 3em;
     }
     
 
